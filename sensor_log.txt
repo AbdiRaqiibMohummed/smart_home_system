@@ -1,0 +1,131 @@
+2025-05-15 12:49:38 - Temperature: 24.70
+2025-05-15 12:49:38 - No Gas Detected
+2025-05-15 12:49:39 - Temperature: 24.60
+2025-05-15 12:49:39 - No Gas Detected
+2025-05-15 12:49:40 - Temperature: 24.60
+2025-05-15 12:49:40 - No Gas Detected
+2025-05-15 12:49:41 - Temperature: 24.60
+2025-05-15 12:49:41 - No Gas Detected
+2025-05-15 12:49:42 - Temperature: 24.60
+2025-05-15 12:49:42 - No Gas Detected
+2025-05-15 12:49:43 - Temperature: 24.70
+2025-05-15 12:49:43 - No Gas Detected
+2025-05-15 12:49:44 - Temperature: 24.70
+2025-05-15 12:49:44 - No Gas Detected
+2025-05-15 12:49:45 - Temperature: 24.70
+2025-05-15 12:49:45 - No Gas Detected
+2025-05-15 12:49:46 - Temperature: 24.70
+2025-05-15 12:49:46 - No Gas Detected
+2025-05-15 12:49:47 - Temperature: 24.70
+2025-05-15 12:49:47 - No Gas Detected
+2025-05-15 12:49:48 - Temperature: 24.70
+2025-05-15 12:49:48 - No Gas Detected
+2025-05-15 12:49:49 - Temperature: 24.70
+2025-05-15 12:49:49 - No Gas Detected
+2025-05-15 12:49:50 - Temperature: 24.70
+2025-05-15 12:49:50 - No Gas Detected
+2025-05-15 12:49:51 - Temperature: 24.60
+2025-05-15 12:49:51 - No Gas Detected
+2025-05-15 12:49:52 - Temperature: 24.60
+2025-05-15 12:49:52 - No Gas Detected
+2025-05-15 12:49:53 - Temperature: 24.60
+2025-05-15 12:49:53 - No Gas Detected
+2025-05-15 12:49:54 - Temperature: 24.60
+2025-05-15 12:49:54 - No Gas Detected
+2025-05-15 12:49:55 - Temperature: 24.60
+2025-05-15 12:49:55 - No Gas Detected
+2025-05-15 12:49:56 - Temperature: 24.60
+2025-05-15 12:49:56 - No Gas Detected
+2025-05-15 12:49:57 - Temperature: 24.60
+2025-05-15 12:49:57 - No Gas Detected
+2025-05-15 12:49:58 - Temperature: 24.60
+2025-05-15 12:49:58 - No Gas Detected
+2025-05-15 12:49:59 - Temperature: 24.50
+2025-05-15 12:49:59 - No Gas Detected
+2025-05-15 12:50:00 - Temperature: 24.50
+2025-05-15 12:50:00 - No Gas Detected
+2025-05-15 12:50:01 - Motion detected!
+2025-05-15 12:50:01 - Temperature: 24.50
+2025-05-15 12:50:02 - No Gas Detected
+2025-05-15 12:50:02 - Temperature: 24.50
+2025-05-15 12:50:03 - No Gas Detected
+2025-05-15 12:50:03 - Temperature: 24.50
+2025-05-15 12:50:04 - No Gas Detected
+2025-05-15 12:50:04 - Motion detected!
+2025-05-15 12:50:05 - Temperature: 24.50
+2025-05-15 12:50:05 - No Gas Detected
+2025-05-15 12:50:06 - Temperature: 24.50
+2025-05-15 12:50:07 - No Gas Detected
+2025-05-15 12:50:07 - Temperature: 24.50
+2025-05-15 12:50:08 - No Gas Detected
+2025-05-15 12:50:08 - Motion detected!
+2025-05-15 12:50:09 - Temperature: 24.50
+2025-05-15 12:50:09 - No Gas Detected
+2025-05-15 12:50:10 - Temperature: 24.50
+2025-05-15 12:50:10 - No Gas Detected
+2025-05-15 12:50:11 - Temperature: 24.50
+2025-05-15 12:50:11 - No Gas Detected
+2025-05-15 12:50:12 - Temperature: 24.50
+2025-05-15 12:50:12 - No Gas Detected
+2025-05-15 12:50:13 - Temperature: 24.50
+2025-05-15 12:50:13 - No Gas Detected
+2025-05-15 12:50:14 - Temperature: 24.50
+2025-05-15 12:50:14 - No Gas Detected
+2025-05-15 12:50:15 - Temperature: 24.50
+2025-05-15 12:50:15 - No Gas Detected
+2025-05-15 12:50:16 - Temperature: 24.50
+2025-05-15 12:50:16 - No Gas Detected
+2025-05-15 12:50:17 - Temperature: 24.50
+2025-05-15 12:50:17 - No Gas Detected
+2025-05-15 12:50:18 - Temperature: 24.50
+2025-05-15 12:50:18 - No Gas Detected
+2025-05-15 12:50:19 - Temperature: 24.50
+2025-05-15 12:50:19 - No Gas Detected
+2025-05-15 12:50:20 - Temperature: 24.50
+2025-05-15 12:50:20 - No Gas Detected
+2025-05-15 12:50:21 - Temperature: 24.50
+2025-05-15 12:50:21 - No Gas Detected
+2025-05-15 12:50:22 - Temperature: 24.50
+2025-05-15 12:50:22 - No Gas Detected
+2025-05-15 12:50:23 - Temperature: 24.50
+2025-05-15 12:50:23 - No Gas Detected
+2025-05-15 12:50:24 - Temperature: 24.50
+2025-05-15 12:50:24 - No Gas Detected
+2025-05-15 12:50:25 - Temperature: 24.50
+2025-05-15 12:50:25 - No Gas Detected
+2025-05-15 12:50:26 - Temperature: 24.50
+2025-05-15 12:50:26 - No Gas Detected
+2025-05-15 12:50:27 - Temperature: 24.50
+2025-05-15 12:50:27 - No Gas Detected
+2025-05-15 12:50:28 - Temperature: 24.50
+2025-05-15 12:50:28 - No Gas Detected
+2025-05-15 12:50:29 - Temperature: 24.50
+2025-05-15 12:50:29 - No Gas Detected
+2025-05-15 12:51:11 - Temperature: 24.10
+2025-05-15 12:51:12 - No Gas Detected
+2025-05-15 12:51:13 - Temperature: 24.10
+2025-05-15 12:51:14 - No Gas Detected
+2025-05-15 12:51:15 - Temperature: 24.10
+2025-05-15 12:51:16 - No Gas Detected
+2025-05-15 12:51:17 - Temperature: 24.10
+2025-05-15 12:51:18 - No Gas Detected
+2025-05-15 12:51:19 - Temperature: 24.10
+2025-05-15 12:51:20 - No Gas Detected
+2025-05-15 12:51:21 - Temperature: 24.10
+2025-05-15 12:51:22 - No Gas Detected
+2025-05-15 12:51:23 - Temperature: 24.10
+2025-05-15 12:51:24 - No Gas Detected
+2025-05-15 12:51:25 - Temperature: 24.10
+2025-05-15 12:51:26 - No Gas Detected
+2025-05-15 12:51:27 - Temperature: 24.10
+2025-05-15 12:51:28 - No Gas Detected
+2025-05-15 12:51:29 - Temperature: 24.10
+2025-05-15 12:51:30 - No Gas Detected
+2025-05-15 12:51:31 - Temperature: 24.10
+2025-05-15 12:51:32 - No Gas Detected
+2025-05-15 12:51:33 - Temperature: 24.10
+2025-05-15 12:51:34 - No Gas Detected
+2025-05-15 12:51:35 - Temperature: 24.10
+2025-05-15 12:51:36 - No Gas Detected
+2025-05-15 12:51:37 - Temperature: 24.10
+2025-05-15 12:51:38 - No Gas Detected

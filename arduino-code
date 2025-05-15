@@ -1,0 +1,107 @@
+#include <DHT.h>
+
+#define DHTPIN 12
+#define DHTTYPE DHT11
+DHT dht(DHTPIN, DHTTYPE);
+
+// Pins
+const int trigPin = 2;
+const int echoPin = 3;
+const int blueLedPin = 4;
+const int yellowLedPin = 5;     // USED for ON/OFF control
+const int motionLedPin = 6;
+const int buzzerPin = 7;
+const int tonePin = 11;
+const int gasSensorPin = A0;
+
+int distance;
+int duration;
+int gasThreshold = 2600;
+bool motionPreviouslyDetected = false;
+
+unsigned long lastDhtReadTime = 0;
+const unsigned long dhtReadInterval = 2000; // read DHT every 2 seconds
+
+void setup() {
+  pinMode(blueLedPin, OUTPUT);
+  pinMode(yellowLedPin, OUTPUT);   // ON/OFF LED
+  pinMode(motionLedPin, OUTPUT);
+  pinMode(buzzerPin, OUTPUT);
+  pinMode(tonePin, OUTPUT);
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  pinMode(gasSensorPin, INPUT);
+  
+  Serial.begin(9600);
+  dht.begin();
+}
+
+void loop() {
+  if (Serial.available()) {
+    String command = Serial.readStringUntil('\n');
+    command.trim();
+
+    if (command == "LIGHT_ON") {
+      controlLight(true);   // Turn ON pin 5
+    } else if (command == "LIGHT_OFF") {
+      controlLight(false);  // Turn OFF pin 5
+    }
+  }
+
+  measureDistance();
+  checkMotion();
+
+  // Read temperature sensor every 2 seconds
+  if (millis() - lastDhtReadTime > dhtReadInterval) {
+    temperaturSensor();
+    lastDhtReadTime = millis();
+  }
+
+  checkGasSensor();
+
+  delay(100);  // shorter delay for better responsiveness
+}
+
+void controlLight(bool state) {
+  digitalWrite(yellowLedPin, state ? HIGH : LOW);  // Controls pin 5
+}
+
+void measureDistance() {
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+  duration = pulseIn(echoPin, HIGH);
+  distance = (duration * 0.034) / 2;
+}
+
+void temperaturSensor() {
+  float tempC = dht.readTemperature();
+  if (isnan(tempC)) {
+    Serial.println("Failed to read from DHT sensor!");
+  } else {
+    Serial.print("Temperature: ");
+    Serial.println(tempC);
+  }
+}
+
+void checkGasSensor() {
+  int gasValue = analogRead(gasSensorPin);
+  if (gasValue >= gasThreshold) {
+    Serial.println("Gas detected!");
+  }
+}
+
+void checkMotion() {
+  if (distance <= 10) {
+    digitalWrite(motionLedPin, HIGH);
+    if (!motionPreviouslyDetected) {
+      Serial.println("Motion detected!");
+      motionPreviouslyDetected = true;
+    }
+  } else {
+    digitalWrite(motionLedPin, LOW);
+    motionPreviouslyDetected = false;
+  }
+}

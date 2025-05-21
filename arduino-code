@@ -8,7 +8,7 @@ DHT dht(DHTPIN, DHTTYPE);
 const int trigPin = 2;
 const int echoPin = 3;
 const int blueLedPin = 4;
-const int yellowLedPin = 5;     // USED for ON/OFF control
+const int yellowLedPin = 5;     
 const int motionLedPin = 6;
 const int buzzerPin = 7;
 const int tonePin = 11;
@@ -20,7 +20,7 @@ int gasThreshold = 2600;
 bool motionPreviouslyDetected = false;
 
 unsigned long lastDhtReadTime = 0;
-const unsigned long dhtReadInterval = 2000; // read DHT every 2 seconds
+const unsigned long dhtReadInterval = 2000; // read DHT every 2 seconds jsut a reminder
 
 void setup() {
   pinMode(blueLedPin, OUTPUT);
@@ -59,7 +59,7 @@ void loop() {
 
   checkGasSensor();
 
-  delay(100);  // shorter delay for better responsiveness
+  delay(100);  // shorter delay for better responsiveness in this case for gas sensor to sense it then tell it.
 }
 
 void controlLight(bool state) {
@@ -93,15 +93,20 @@ void checkGasSensor() {
   }
 }
 
+// MAIN BEDROOM Light
+
 void checkMotion() {
   if (distance <= 10) {
     digitalWrite(motionLedPin, HIGH);
     if (!motionPreviouslyDetected) {
       Serial.println("Motion detected!");
+      // digitalWrite(buzzerPin, HIGH);
       motionPreviouslyDetected = true;
     }
   } else {
     digitalWrite(motionLedPin, LOW);
+    // digitalWrite(buzzerPin, LOW);
     motionPreviouslyDetected = false;
   }
 }
+
